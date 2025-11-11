@@ -1,0 +1,37 @@
+plugins {
+    id 'org.springframework.boot' version '3.1.0'
+    id 'io.spring.dependency-management' version '1.1.0'
+    id 'java'
+    id "org.sonarqube" version "4.4.1.3373"
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+sourceCompatibility = JavaVersion.VERSION_21
+targetCompatibility = JavaVersion.VERSION_21
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf' // Add this if using Thymeleaf
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+sonar {
+  properties {
+    property "sonar.host.url", "http://localhost:9000"
+    property "sonar.projectKey", "ivolve"
+    property "sonar.login", "sqa_f72c8a31eb4ff129c33b47b1c282f7e626eef643"
+  }
+}
