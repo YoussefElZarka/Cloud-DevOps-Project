@@ -5,7 +5,7 @@ The **CloudDevOpsProject** is a comprehensive DevOps pipeline that integrates mu
 
 ## Project Archticture 
 
-![alt text](/assets/app/arch_proj.svg)
+![alt text](/assets/app/Cloud_DevOps-iVolve.svg)
 
 ## 🏗️ Tech Stack & Tools Used
 - **Infrastructure Provisioning**: Terraform 🏗️
@@ -42,7 +42,7 @@ The **CloudDevOpsProject** showcases an end-to-end DevOps pipeline with automati
 
 ---
 
-📌 **Author:** Abdel-Hamed 👨‍💻  
-📬 **Contact:** [LinkedIn](https://www.linkedin.com/in/abdel-hamed-abdel-nasser/) | [GitHub](https://github.com/abdelhamed-4A)  
+📌 **Author:** Youssef ElZarka 👨‍💻  
+📬 **Contact:** [LinkedIn](https://www.linkedin.com/in/youssef-elzarka/) | [GitHub](https://github.com/YoussefElZarka)  
 💡 **Contributions are welcome!** Feel free to fork, submit PRs, or open issues. 🎉
 
