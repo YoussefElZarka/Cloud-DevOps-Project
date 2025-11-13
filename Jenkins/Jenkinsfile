@@ -4,15 +4,15 @@ pipeline {
         label 'jenkins-slave' 
     }
     environment {
-        GITHUB_REPO_URL = 'https://github.com/abdelhamed-4A/CloudDevOpsProject.git'
+        GITHUB_REPO_URL = 'https://github.com/YoussefElZarka/Cloud-DevOps-Project.git'
         REPO_NAME = 'CloudDevOpsProject'
         GITHUB_REPO_BRANCH = 'main'
-        DOCKER_REGISTRY = "abdelhamed4a"
+        DOCKER_REGISTRY = "elzarka"
         DOCKER_IMAGE = "java-web-app"
         IMAGE_TAG = "v${BUILD_NUMBER}"
         DOCKERHUB_CRED_ID = "dockerhub"
-        EMAIL = "abdelhamednasser2@gmail.com"
-        GIT_USERNAME = "abdelhamed-4A" 
+        EMAIL = "elzarka.youssef@gmail.com"
+        GIT_USERNAME = "elzarka" 
         GIT_CRED_ID = "github"
         DEPLOYMENT = 'deployment.yaml' 
     }
